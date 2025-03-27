@@ -24,8 +24,17 @@ https://github.com/BtbN/FFmpeg-Builds/releases/download/latest/ffmpeg-master-lat
 
 ## Youtube Video Downloader Scripts:
 
-	1. youtube3.py  (Main)
-	2. youtube2.py  (Secondary)
+	1. youtube_main.py  (Main)
+	2. youtube3.py  	(Main)
+	3. youtube2.py  	(Secondary)
+
+### Single Video:
+
+	python.exe youtube_main.py "https://www.youtube.com/watch?v=TjoNaJ7n4Vg" --quality 480p --output_dir "c:\\download_video"
+
+### Playlist:
+
+	python.exe youtube_main.py "https://www.youtube.com/playlist?list=PLJDwhlqmpSfPUg7_jffHmF_6MooTlH7rO" --quality 720p --output_dir "c:\\download_video"
 
 ### Single Video:
 
